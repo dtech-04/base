@@ -1,0 +1,22 @@
+{
+    "name": "dtech/module-base",
+    "description": "Dtech base extension",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "deepakjangid04@gmail.com",
+            "name": "Dtech"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dtech\\Base\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
