@@ -160,6 +160,16 @@ class AbstractData extends AbstractHelper
     }
 
     /**
+     * Get store identifier
+     *
+     * @return  int
+     */
+    public function getStoreId()
+    {
+        return $this->storeManager->getStore()->getId();
+    }
+
+    /**
      * @param $ver
      * @param string $operator
      *
