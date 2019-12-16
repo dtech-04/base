@@ -1,5 +1,5 @@
 {
-    "name": "dtech/module-base",
+    "name": "dtech/base",
     "description": "Dtech base extension",
     "version": "1.0.2",
     "type": "magento2-module",
